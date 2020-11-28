@@ -1,0 +1,48 @@
+{
+  "title": "Technical leadership",
+  "author": "Hayes-Stars",
+  "description": "记录Technical leadership的一些心得和笔记",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "styles": {
+    "website": "./styles/website.less"
+  },
+  "plugins": [
+    "search",
+    "todo",
+    "github",
+    "prism",
+    "lightbox",
+    "-highlight",
+    "splitter",
+    "styles-less",
+    "theme-fexa",
+    "custom-favicon",
+    "back-to-top-button",
+    "expandable-chapters",
+    "page-footer-ex"
+  ],
+  "pluginsConfig": {
+    "favicon": "./asset/img/favicon.ico",
+    "code": {
+      "copyButtons": true
+    },
+    "github": {
+      "url": "https://github.com"
+    },
+    "theme-fexa": {
+      "search-placeholder": "输入关键字搜索",
+      "logo": "http://www.hydee.cn/Content/Hydee/img/logo.png",
+      "favicon": "./favicon.ico"
+    },
+    "prism": {
+      "css": ["prism-themes/themes/prism-a11y-dark.css"]
+    },
+    "page-footer-ex": {
+      "copyright": "Hydee",
+      "markdown": true,
+      "update_label": "此页面修改于：",
+      "update_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  }
+}
