@@ -10,13 +10,13 @@
 
 > 由于 gitbook 是基于 node.js 的，所以在安装 gitbook 之前需要先安装 node。
 
-```javascript
+```bash
   npm install -g gitbook-cli
 ```
 
 - 检验是否安装成功
 
-```javascript
+```bash
 gitbook - V
 ```
 
@@ -26,13 +26,13 @@ gitbook - V
 
 - 初始化
 
-```javascript
+```bash
   gitbook init
 ```
 
 - 启动 gitbook
 
-```javascript
+```bash
   gitbook serve
 ```
 
@@ -40,15 +40,24 @@ gitbook - V
 
 - 生成 \_book 文件夹
 
-```javascript
+```bash
   gitbook build
 ```
+
+- 部署到github
+  - 新建gh-pages分支
+  - 提交 build后的 _book 目录，对应提交到github 的 gh-pages 分支 下根目录 docs
+
+> 代码结构如图：
+![avatar](./asset/img/github-gh-pages.jpg)
+> 部署设置如图:
+![avatar](./asset/img/github-gh-pages02.jpg)
 
 - 目录编写
 
 > gitbook 的目录结构主要由 SUMMARY.md 文件决定，它通过 Markdown 中的列表语法来表示文件的父子关系，简单的示例如下所示。
 
-```javascript
+```docs
 
 # 目录
 
