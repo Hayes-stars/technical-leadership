@@ -4,6 +4,7 @@
 * [研发效率实战](tech-develop-notebook/README.md)
     * [代码评审](tech-develop-notebook/chapter01/firstSection.md)
         * [gitLab code review](tech-develop-notebook/chapter01/gitLab-code-review.md)
+        * [gerrit 审查](tech-develop-notebook/chapter01/gerrit.md)
         * [phabricator 审查](tech-develop-notebook/chapter01/phabricator.md)
     * [流程优化](tech-develop-notebook/chapter02/firstSection.md)
 * [程序员工作实战](tech-coder-notebook/README.md)
