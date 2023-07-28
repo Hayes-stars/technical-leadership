@@ -1,26 +1,31 @@
 {
-  "title": "Technical leadership",
-  "author": "Hayes-Stars",
-  "description": "记录Technical leadership的一些心得和笔记",
+  "title": "Technical Leadership",
+  "author": "Hayes-stars",
+  "description": "记录Technical Leadership的一些心得和笔记",
   "language": "zh-hans",
-  "gitbook": "3.2.3",
   "styles": {
     "website": "./styles/website.less"
   },
   "plugins": [
-    "search",
     "todo",
+    "code",
+    "lightbox",
+    "search-pro",
     "github",
     "prism",
-    "lightbox",
     "-highlight",
     "splitter",
     "styles-less",
     "theme-fexa",
     "custom-favicon",
     "back-to-top-button",
+    "page-toc-button",
     "expandable-chapters",
-    "page-footer-ex"
+    "chapter-fold",
+    "page-footer-ex",
+    "auto-scroll-table",
+    "popup",
+    "pageview-count"
   ],
   "pluginsConfig": {
     "favicon": "./asset/img/favicon.ico",
@@ -28,7 +33,7 @@
       "copyButtons": true
     },
     "github": {
-      "url": "https://github.com"
+      "url": "https://hayes-stars.github.io/technical-leadership/"
     },
     "theme-fexa": {
       "search-placeholder": "输入关键字搜索",
@@ -36,10 +41,10 @@
       "favicon": "./favicon.ico"
     },
     "prism": {
-      "css": ["prism-themes/themes/prism-a11y-dark.css"]
+      "css": ["prismjs/themes/prism.css"]
     },
     "page-footer-ex": {
-      "copyright": "Hydee",
+      "copyright": "Hayes-stars",
       "markdown": true,
       "update_label": "此页面修改于：",
       "update_format": "YYYY-MM-DD HH:mm:ss"
